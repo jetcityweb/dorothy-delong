@@ -98,33 +98,102 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* Default header and text */
+/* Default text, image and list styles*/
 
 h1 {
   font-size: 2.5em;
   font-family: 'Rock Salt', cursive;
+  text-align: center;
+  padding: 40px 0;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.25em;
+  
+}
+
+html,
+a {
+  font-family: 'Lato'
+}
+
+ul {
+  list-style: none;
+  padding: 20px 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
 }
 
 /* Body */
+
+
 body {
   background-image: url(../img/awareness.png);
-  background-size: cover;
-  max-width: 375px;
+  background-size: auto;
+  text-align: center;
 }
+
+.content-wrapper {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
 
 /* Header */
 
-.header {
-  display: flex;
+
+.signature,
+.nav {
+  width: 100%;
+  text-align: center;
+  display: block;
 }
+
+.nav ul li a {
+  font-size: 1.75em;
+  text-decoration: none;
+  color: #343231;
+  margin: 20px 0;
+  line-height: 2em;
+}
+
+/* Hero area */
 
 .hero-area {
   background-color: #343231;
-  display: flex;
-  flex-flow: row wrap;
+  display: block;
   width: 100%;
   height: auto;
-  justify-content: center;
+}
+
+.logo {
+  max-width: 60%;
+  padding: 40px 0;
+}
+
+.hero-area p {
+  font-size: 1.75em;
+  color: #ffffff;
+  max-width: 70%;
+  padding: 0 15%;
+}
+
+.portrait {
+  object-fit: contain;
+  max-width: 80%;
+  padding: 60px 0;
+
 }
 
 /* Main */
@@ -135,7 +204,52 @@ body {
 
 .portfolio {
     background-color: #F82A76;
+    margin-top: -26px;
+    padding-bottom: 30px;
 }
+
+.portfolio h2 {
+  padding: 40px 0 0 0;
+}
+
+.artist-statement {
+  max-width: 70%;
+  padding: 0 15% 40px 15%;
+}
+
+.portfolio ul {
+  margin: 0;
+  padding: 10px 0 40px 0;
+}
+
+.portfolio ul li:first-child {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.portfolio img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Contact area */
+
+.social-email img {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.social-email h3 {
+  padding: 30px 0 20px 0;
+}
+
+/* Footer area */
+
+footer p {
+  padding: 30px 0 20px 0;
+}
+
+
+
 
 
 
@@ -171,7 +285,7 @@ body {
 *
 * 1. For long content, line feeds are not interpreted as spaces and small width
 *    causes content to wrap 1 word per line:
-*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-tex t-5952a4c2cbfe
 */
 
 .sr-only {
@@ -244,7 +358,7 @@ body {
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
-  body {
+  /* body {
     max-width: 1366px;
   }
   .hero-area {
@@ -280,9 +394,9 @@ body {
     grid-column: 3/4;
   }
 
-}
+} */
 
-@media print,
+@media print, 
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {

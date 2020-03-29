@@ -28,34 +28,34 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <section class="header">
+  <div class="content-wrapper">
+    
+  
+  <header class="header">
     <div class="signature">
       <h1>Dorothy DeLong</h1>
       
     </div>
 
-    <div class="nav">
+    <nav class="nav">
       <ul>
         <li><a href="#">about me</a></li>
         <li><a href="#">my work</a></li>
         <li><a href="#">contact me</a></li>
       </ul>
-    </div>
-  </section>
+    </nav>
+  </header>
   
   <main>
     <section id="about">
-      <div class="hero-area">
-    
-          <img class="logo" src="img/logo.png" alt="Artist Logo">
-        
-        
-      
-          <img class="portrait" src="img/dorothy.png" alt="Dorothy-DeLong-Portrait">
-          
-        
-        
-      </div>
+        <div class="hero-area">
+          <figure>
+            <img class="logo" src="img/logo.png" alt="Artist Logo">
+              <p>“I capture the realness
+              behind feminism, no filter.”</p>
+              <img class="portrait" src="img/dorothy.png" alt="Dorothy-DeLong-Portrait">
+            </figure>
+        </div>
     </section>
     
     <section id="my-work">
@@ -65,59 +65,80 @@
           <p>My work focuses on candid photographs taken on location at events for women’s rights, places where women are owning their space, and fleeting encounters on the streets. My work engulfs the viewer in real moments of strength, vulnerability, and solidarity.</p>
           
         </div>
-        <div class="portfolio-image">
+        <figure class="portfolio-image">
           <img src="img/flag.png" alt="flag">
-          <ul>
-            <li><a>Flag, LGBTQIA March</a></li>
-            <li><a>Washington DC</a></li>
-            <li><a>November 25, 2017</a></li>
-          </ul>
-
+          <figcaption>
+            <ul>
+              <li><a>Flag, LGBTQIA March</a></li>
+              <li><a>Washington DC</a></li>
+              <li><a>November 25, 2017</a></li>
+            </ul>
+          </figcaption>
+        </figure>
+        <figure class="portfolio-image">
           <img src="img/girl.png" alt="girl">
-          <ul>
-            <li><a>Black Girl Magic, Houston TX</a></li>
-            <li><a>January 17, 2018</a></li>
-          </ul>
-          
+          <figcaption>
+            <ul>
+              <li><a>Black Girl Magic, Houston TX</a></li>
+              <li><a>January 17, 2018</a></li>
+            </ul>
+          </figcaption>
+        </figure>
+        <figure class="portfolio-image">
           <img src="img/haircut.png" alt="haircut">
-          <ul>
-            <li><a>Haircut, New York City</a></li>
-            <li><a>March 31, 2018</a></li>
-          </ul>
-          
+          <figcaption>
+            <ul>
+              <li><a>Haircut, New York City</a></li>
+              <li><a>March 31, 2018</a></li>
+            </ul>
+          </figcaption>
+        </figure> 
+        <figure class="portfolio-image"> 
           <img src="img/moment.png" alt="moment">
-          <ul>
-            <li><a>Moment, FemRock Fest</a></li>
-            <li><a>July 17, 2018</a></li>
-          </ul>
-          
+          <figcaption>
+            <ul>
+              <li><a>Moment, FemRock Fest</a></li>
+              <li><a>July 17, 2018</a></li>
+            </ul>
+          </figcaption>
+        </figure>
+        <figure class="portfolio-image">   
           <img src="img/flex.png" alt="flex">
-          <ul>
-            <li><a>Flex, Madison, WI</a></li>
-            <li><a>July 24, 2015</a></li>
-          </ul>
-          
+          <figcaption>
+            <ul>
+              <li><a>Flex, Madison, WI</a></li>
+              <li><a>July 24, 2015</a></li>
+            </ul>
+          </figcaption>
+        </figure>
+        <figure class="portfolio-image">  
           <img src="img/father.png" alt="father">
+          <figcaption>
+            <ul>
+              <li><a>Father, Denver Colorado</a></li>
+              <li><a>June 25, 2018</a></li>
+            </ul>
+          </figcaption>
+        </figure>  
+        <!-- <div class="portfolio-image">  
+          <img src="img/me-too.png" alt="me-too">
           <ul>
-            <li><a>Father, Denver Colorado</a></li>
-            <li><a>June 25, 2018</a></li>
+            <li><a>Street Art, Montreal, Canada</a></li>
+            <li><a>September 1, 2018</a></li>
           </ul>
-          
-          
+        </div>     -->
         
-          
-        </div>
-              
       </div>
       
     </section>
     
     <section #id="contact">
       <div class="social-email">
+        <h3>dorothydelong@gmail.com</h3>
         <img src="img/facebook-square.png" alt="facebook">
         <img src="img/instagram.png" alt="instagram">
         <img src="img/twitter-square.png" alt="twitter">
-        <p>dorothydelong@gmail.com</p>
+        
         
       </div>
     </section>
@@ -145,6 +166,8 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+  
+  </div>
 </body>
 
 </html>
