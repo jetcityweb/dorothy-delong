@@ -112,8 +112,12 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 1.75em;
   
+}
+
+h4 {
+  font-size: 1.25em;
 }
 
 html,
@@ -153,6 +157,7 @@ body {
 /* Header */
 
 
+
 .signature,
 .nav {
   width: 100%;
@@ -168,9 +173,9 @@ body {
   line-height: 2em;
 }
 
-/* Hero area */
+/* Feature area */
 
-.hero-area {
+.feature {
   background-color: #343231;
   display: block;
   width: 100%;
@@ -179,19 +184,17 @@ body {
 
 .logo {
   max-width: 60%;
-  padding: 40px 0;
+  padding: 60px 0 20px 0;
 }
 
-.hero-area p {
-  font-size: 1.75em;
+.feature h2 {
   color: #ffffff;
-  max-width: 70%;
-  padding: 0 15%;
+  max-width: 80%;
+  padding: 0 10%;
 }
 
 .portrait {
-  object-fit: contain;
-  max-width: 80%;
+  max-width: 90%;
   padding: 60px 0;
 
 }
@@ -204,11 +207,11 @@ body {
 
 .portfolio {
     background-color: #F82A76;
-    margin-top: -26px;
+    margin-top: -30px;
     padding-bottom: 30px;
 }
 
-.portfolio h2 {
+.portfolio h3 {
   padding: 40px 0 0 0;
 }
 
@@ -238,7 +241,7 @@ body {
   padding: 0 20px;
 }
 
-.social-email h3 {
+.social-email h4 {
   padding: 30px 0 20px 0;
 }
 
@@ -393,8 +396,8 @@ footer p {
     grid-row: 1/2;
     grid-column: 3/4;
   }
-
-} */
+*/
+} 
 
 @media print, 
   (-webkit-min-device-pixel-ratio: 1.25),
