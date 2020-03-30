@@ -177,7 +177,8 @@ body {
 
 .signature,
 .nav {
-  width: 100%;
+  width: 80%;
+  padding: 0 10%;
   text-align: center;
   display: block;
 }
@@ -279,20 +280,6 @@ footer p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  ==========================================================================
    Helper classes
@@ -383,44 +370,24 @@ footer p {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-  /* body {
-    max-width: 1366px;
-  }
-  .hero-area {
-    max-height: 700px;
-    width: 1080px;
+@media only screen and (min-width: 48em) {
   
+  body {
+    background-size: cover;
   }
-
-  .hero-area img {
-    overflow: visible;
-  }
-
-  .logo {
-    width: 625px;
-  }
-
-  .portrait {
-    padding-left: 500px;
+  
+  
+  .nav ul li {
+    display: inline-block;
+    padding: 0 15px;
   }
   
   .portfolio {
-    display: grid;
-    grid-template-columns: 40px 40px 1fr 40px;
-    grid-template-rows: 1fr 1fr;
-    width: 1366px;
-  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
   }
 
-  .portfolio-image {
-    display: flex;
-    width: 25%;
-    grid-row: 1/2;
-    grid-column: 3/4;
-  }
-*/
 } 
 
 @media print, 
