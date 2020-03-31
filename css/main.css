@@ -372,9 +372,6 @@ footer p {
 
 @media only screen and (min-width: 48em) {
   
-  /* body {
-    background-size: cover;
-  } */
   
   
   .nav ul li {
@@ -468,25 +465,42 @@ footer p {
     height: 570px;
   }
   
+  .my-work {
+    margin-bottom: 20px;
+  }
+  
   .portfolio {
     display: flex;
     margin-left: -80px;
+    margin-top: 0;
+    min-height: 820px;
   }
   
+  .artist-statement,
   .portfolio-image {
     max-width: 25%;
-    margin: 0 12px;
     padding: 0;
-    margin: 40px 10px;
+    margin: 60px 20px 0 10px;
+  }
+  
+  .portfolio-image ul {
+    padding-bottom: 0;
   }
   
   .artist-statement {
-    max-width: 230px;
-    margin: 0;
-    padding: 0 10px 0 0;
+    max-width: 570px;
+  }
+  
+  .artist-statement h3 {
+    margin-top: 0;
+    padding-top: 0;
     text-align: left;
   }
   
+  .artist-statement p {
+    font-size: 1.4em;
+    text-align: left;
+  }
   
 
 } 
