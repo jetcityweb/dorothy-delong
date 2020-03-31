@@ -158,7 +158,7 @@ nav a:hover {
 
 body {
   background-image: url(../img/awareness.png);
-  background-size: auto;
+  background-size: cover;
   text-align: center;
 }
 
@@ -372,9 +372,9 @@ footer p {
 
 @media only screen and (min-width: 48em) {
   
-  body {
+  /* body {
     background-size: cover;
-  }
+  } */
   
   
   .nav ul li {
@@ -387,6 +387,107 @@ footer p {
     flex-flow: row wrap;
     justify-content: center;
   }
+
+} 
+
+@media only screen and (min-width: 85em) {
+  
+  body {
+    background-size: 1368px 2200px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .header {
+    display: flex;
+    height: 125px;
+    align-items: center;
+  }
+  
+  .signature {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    
+  }
+  
+  h1 {
+    padding: 0;
+  }
+  
+  .nav {
+    text-align: right;
+    padding: 0;
+    
+  }
+  
+  .nav ul li a {
+    padding: 8px;
+  }
+  .content-wrapper {
+    max-width: 1206px;
+  }
+  
+  .feature {
+    display: flex;
+    max-width: 1080px;
+    min-height: 600px;
+    margin-left: -80px;
+    overflow: visible;
+     
+  }
+  
+  .feature figure {
+    display: flex;
+    width: 1200px;;
+    overflow: visible;
+    
+  }
+  
+  .feature h2 {
+    text-align: left;
+    min-width: 360px;
+    padding: 0;
+    margin: 440px 0 0 0;
+    
+  }
+  
+  .logo {
+    margin: 40px;
+  }
+  
+  .logo {
+    margin: 80px 0 0 80px;
+    max-height: 294px;
+    flex-basis: 213px;
+    padding: 0;
+
+  }
+  
+  .portrait {
+    margin:  0 0 0 20px;
+    height: 570px;
+  }
+  
+  .portfolio {
+    display: flex;
+    margin-left: -80px;
+  }
+  
+  .portfolio-image {
+    max-width: 25%;
+    margin: 0 12px;
+    padding: 0;
+    margin: 40px 10px;
+  }
+  
+  .artist-statement {
+    max-width: 230px;
+    margin: 0;
+    padding: 0 10px 0 0;
+    text-align: left;
+  }
+  
+  
 
 } 
 
