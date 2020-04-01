@@ -326,7 +326,7 @@ footer p {
 /* Desktop media queries */
 @media only screen and (min-width: 85em) {
   body {
-    background-size: 1368px 1920px;
+    background-size: 1368px 2000px;
     background-position: center;
     background-repeat: no-repeat;
   }
